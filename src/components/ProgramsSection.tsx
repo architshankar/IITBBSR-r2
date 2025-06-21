@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaShieldAlt, FaReact, FaDatabase, FaChartLine } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const programs = [
 	{
@@ -58,7 +59,7 @@ const ProgramsSection = () => {
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 					{programs.map((program, index) => (
-						<a href="/programs" key={program.title}>
+						<Link to="/programs" key={program.title}>
 							<motion.div
 								initial={{ opacity: 0, y: 50, scale: 0.9 }}
 								whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -92,7 +93,7 @@ const ProgramsSection = () => {
 									{program.description}
 								</p>
 							</motion.div>
-						</a>
+						</Link>
 					))}
 				</div>
 			</div>

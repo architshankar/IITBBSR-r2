@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { Hero3D } from "./Hero3D";
+import { Link } from "react-router-dom";
 
 export const HeroSection = () => {
   const containerRef = useRef<any>(null);
@@ -42,9 +43,9 @@ export const HeroSection = () => {
         Gain real-world experience with our immersive internship programs in Cybersecurity, Full Stack Development, Data Science, and Data Analysis
       </motion.p>
       <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="/#programs" className="p-3 px-8 rounded-full bg-blue-500 text-white font-bold text-lg">
+        <Link to="/programs" className="p-3 px-8 rounded-full bg-blue-500 text-white font-bold text-lg">
           Explore Internships
-        </a>
+        </Link>
       </motion.div>
       <p className="text-gray-400 text-sm mt-2">Learn more</p>
     </>
