@@ -17,6 +17,7 @@ This is the frontend for the Inlighn Tech internship portal, a platform designed
 *   **Component-Based Architecture:** Built with reusable React components for maintainability and scalability.
 *   **Modern Tech Stack:** Utilizes TypeScript for type safety and Tailwind CSS for efficient styling.
 *   **Program Listings:** Displays available internship programs with detailed descriptions.
+*   **Detailed website:** Added disclamer , tnc faq's section aswell.
 
 ## Tech Stack
 
