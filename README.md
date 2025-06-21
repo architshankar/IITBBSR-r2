@@ -4,11 +4,11 @@ This is the frontend for the Inlighn Tech internship portal, a platform designed
 
 ## Live Demo
 
-**Deployed Link:** [Your Deployed Link Here]
+**Deployed Link:** https://iitbbsr-r2.vercel.app/
 
 ## GitHub Repository
 
-**GitHub Link:** [Your GitHub Repository Link Here]
+**GitHub Link:** https://github.com/architshankar/IITBBSR-r2
 
 ## Features
 
